@@ -20,12 +20,7 @@ function ManageCourse() {
               <br />
               <div className="row">
                 <div className="col-md-4">
-                  <div
-                    className="card card-custom"
-                    onClick={() => {
-                      window.open("https://taalib.onrender.com/");
-                    }}
-                  >
+                  <div className="card card-custom">
                     <div className="card-body">
                       <h5 className="card-title">Student</h5>
                     </div>
@@ -57,7 +52,12 @@ function ManageCourse() {
             <div className="container">
               <div className="row">
                 <div className="col-md-4">
-                  <div className="card card-custom">
+                  <div
+                    className="card card-custom"
+                    onClick={() => {
+                      window.open("https://taalib.onrender.com/");
+                    }}
+                  >
                     <div className="card-body">
                       <h5 className="card-title">Academic Officer</h5>
                     </div>

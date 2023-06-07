@@ -20,7 +20,10 @@ function ManageCourse() {
               <br />
               <div className="row">
                 <div className="col-md-4">
-                  <div className="card card-custom">
+                  <div className="card card-custom"
+                  onClick={()=>{
+                    window.open("https://tal-student.onrender.com/");
+                  }}>
                     <div className="card-body">
                       <h5 className="card-title">Student</h5>
                     </div>
@@ -30,7 +33,7 @@ function ManageCourse() {
                   <div
                     className="card card-custom"
                     onClick={() => {
-                      window.open("https://google.com");
+                      window.open("https://taalib-ustaad.onrender.com/");
                     }}
                   >
                     <div className="card-body">
@@ -39,7 +42,12 @@ function ManageCourse() {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card card-custom" onClick={() => {}}>
+                  <div
+                    className="card card-custom"
+                    onClick={() => {
+                      window.open("https://taalib-superadmin.onrender.com/");
+                    }}
+                  >
                     <div className="card-body">
                       <h5 className="card-title">Super Admin</h5>
                     </div>
@@ -64,7 +72,10 @@ function ManageCourse() {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card card-custom">
+                  <div className="card card-custom"
+                  onClick={()=>{
+                    window.open("https://taalib-accountofficer.onrender.com/");
+                  }}>
                     <div className="card-body">
                       <h5 className="card-title">Account Officer</h5>
                     </div>
